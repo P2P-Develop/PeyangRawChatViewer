@@ -1,0 +1,18 @@
+[
+  {
+    "modid": "peyangrawchatviewer",
+    "name": "Peyang Raw Chat Viewer",
+    "description": " Raw Chat Viewer. /rawchat [on|off] for toggle RawView mode.",
+    "version": "1.0",
+    "mcversion": "[1.8,)",
+    "url": "https://peya.ml/",
+    "updateUrl": "",
+    "authorList": [
+      "Compiled_peyang"
+    ],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]
