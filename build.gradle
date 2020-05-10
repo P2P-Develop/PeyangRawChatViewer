@@ -86,7 +86,7 @@ processResources
 apply plugin: 'java'
 
 jar.baseName = 'PeyangRawChatViewer-MC1.8.x'
-version = '1.1'
+version = '1.10'
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
