@@ -1,4 +1,5 @@
 # PeyangRawChatViewer
+[![Build Status](https://travis-ci.com/peyang-Celeron/PeyangRawChatViewer.svg?branch=master)](https://travis-ci.com/peyang-Celeron/PeyangRawChatViewer)
 This mod is Chat Style raw data viewer.(json)
 
 ## Usage
