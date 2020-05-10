@@ -3,7 +3,6 @@ package ml.peya.mc;
 import ml.peya.mc.commands.*;
 import ml.peya.mc.exception.*;
 import net.minecraft.client.*;
-import net.minecraft.client.gui.*;
 import net.minecraft.crash.*;
 import net.minecraft.util.*;
 import net.minecraftforge.client.*;
@@ -14,7 +13,6 @@ import net.minecraftforge.fml.common.event.*;
 import net.minecraftforge.fml.common.eventhandler.*;
 import net.minecraftforge.fml.relauncher.*;
 
-import java.awt.*;
 import java.util.logging.*;
 
 @Mod(modid = PeyangRawChatViewer.MOD_ID,
@@ -57,9 +55,10 @@ public class PeyangRawChatViewer
         //logger.info(e.message.getFormattedText());
         if (!isRaw)
             return;
+        if (e.type != 0)
+            return;
         //logger.info(String.valueOf(!isRaw));
         IChatComponent chatComponent = e.message;
-
         //logger.info(e.message.getFormattedText());
         logger.info(IChatComponent.Serializer.componentToJson(chatComponent));
         String json = IChatComponent.Serializer.componentToJson(chatComponent).replace("§", "[Section]");
