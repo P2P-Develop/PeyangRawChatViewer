@@ -19,9 +19,11 @@ plugins {
     id "net.minecraftforge.gradle.forge" version "2.0.2"
 }
 */
-version = "1.1"
+version = "1.2"
 group= "ml.peya.mc.PeyangRawChatViewer" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "PeyangRawChatViewer"
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
 
 minecraft {
     version = "1.8.9-11.15.1.1722"
@@ -61,7 +63,6 @@ dependencies {
 
 }
 
-
 processResources
 {
     // this will ensure that this task is redone when the versions change.
@@ -86,8 +87,7 @@ processResources
 apply plugin: 'java'
 
 jar.baseName = 'PeyangRawChatViewer-MC1.8.x'
-version = '1.1'
-
+version = '1.2'
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
 }
