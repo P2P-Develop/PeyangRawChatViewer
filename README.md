@@ -9,7 +9,7 @@ This mod is Chat Style raw data viewer.(json)
 #### Example: /rawchat \[on|off\]
 
 ## LICENSE
-[GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)
+[MIT](https://choosealicense.com/licenses/mit/)
 # Credit
 ## Developer
 * Compiled_peyang (peyang-Celeron) ProjectOwner
